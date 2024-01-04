@@ -41,3 +41,8 @@ a{
     color: black;
     padding: 5px;
 }
+
+h2{
+    color: blueviolet;
+    text-decoration: underline;
+}
