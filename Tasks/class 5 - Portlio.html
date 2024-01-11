@@ -3,16 +3,33 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Class 5</title>
+   <title>Class 5 - Portfolio</title>
    <style>
-      #Portfolio2, #Portfolio3, #Portfolio4 {
-         border: 2px solid black;
-      }
+    .hide {
+      display: none;
+    }
+
+    .Portfolio-container{
+      width: 80%;
+      max-width: 1320px;
+      text-align: center;
+      margin: auto;
+    }
+
+    .image1 > img{
+      width: 100%;
+      border: 2px solid black;
+      
+    }
    </style>
 </head>
 <body>
 
+   
+
    <h1 style="border: 5px dotted skyblue; padding: 5px; text-align: center;color: blueviolet;"> Class 5 - Practices</h1>
+
+   <h2>Change the display hide style to show others Portfolio</h2>
 
    <h2>
       <ol>
@@ -22,8 +39,10 @@
          <li><a href="#Portfolio4">Portfolio 4</a></li>
       </ol>
    </h2>
+
+   <!-- change the display hide style to show others Portfolio -->
    
-   <ul>
+   <ul class="">
       <li>
          <h2>
             Make a webpage Portlio <a href="https://programminghero1.github.io/webdeveloper-portfolio/" target="_blank"> Like this</a>
@@ -32,10 +51,12 @@
       </li>
    </ul>
 
-   <div>
-     <span id="Portfolio2"><img src="../asstes/Pr 5.2 Portfolio.jpg" alt="" width="80%"></span>
-     <span id="Portfolio3"><img src="../asstes/Pr 5.3 Portfolio.jpg" alt="" width="80%"></span> 
-     <span id="Portfolio4"><img src="../asstes/Pr 5.4 Portfolio.jpg" alt="" width="80%"></span>
+   <div class="Portfolio-container">
+      <div class="image1 hide" id="Portfolio2">
+       <img src="../asstes/Pr 5.2 Portfolio.jpg" alt="">
+      </div>
+     <div  class="hide" id="Portfolio3"><img src="../asstes/Pr 5.3 Portfolio.jpg" alt=""></div> 
+     <div  class="hide" id="Portfolio4"><img src="../asstes/Pr 5.4 Portfolio.jpg" alt=""></div>
    </div>
 
 </body>
